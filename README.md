@@ -8,3 +8,5 @@
 **[2. Two Pointers](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Two%20Pointers)**
 
 **[3. Sliding Window](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Sliding%20Window)**
+
+**[4. Stack]()
