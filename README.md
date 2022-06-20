@@ -11,4 +11,4 @@
 
 **[4. Stack](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Stack)**
 
-**[5. Binary Search]()**
+**[5. Binary Search](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Binary%20Search)**
