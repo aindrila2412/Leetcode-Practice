@@ -10,3 +10,5 @@
 **[3. Sliding Window](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Sliding%20Window)**
 
 **[4. Stack](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Stack)**
+
+**[5. Binary Search]()**
