@@ -14,3 +14,5 @@
 **[5. Binary Search](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Binary%20Search)**
 
 **[6. Linked List](https://github.com/aindrila2412/Leetcode-Practice/tree/main/Linked%20List)**
+
+**[7. Trees]()**
