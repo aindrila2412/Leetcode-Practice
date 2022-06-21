@@ -15,3 +15,20 @@ Example 2:
 
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
+
+ 
+Solution:
+ 
+class Solution:
+  def twoSum(self, nums: List[int], target: int) -> bool:
+    
+    prevMap = {}
+    
+    for i, n in enumerate(nums):
+      diff = target - n
+      
+      if diff in prevMap:
+        return [prevMap[diff], i]
+      prevMap[n] = i
+      
+    return
