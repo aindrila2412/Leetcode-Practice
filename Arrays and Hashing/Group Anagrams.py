@@ -12,3 +12,21 @@ Example 2:
 
 Input: strs = [""]
 Output: [[""]]
+
+ 
+ 
+Solution:
+ 
+class Solution:
+  def groupAnagram(self, strs: List[str]) -> List[List[str]]:
+   
+    res = defaultdict(list)
+    
+    for s in strs:
+      count[ord(c) - ord("a")] += 1
+      
+     res[tuple(count)].append()
+     
+    return res.values()
+    
+    
