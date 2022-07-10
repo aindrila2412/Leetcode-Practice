@@ -17,3 +17,24 @@ Example 2:
 Input: prices = [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
+
+ 
+ 
+ 
+Solution:
+ 
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        l, r = 0, 1
+        maxP = 0
+        
+        while r < len(prices):
+            if prices[l] < prices[r]:
+                profile = prices[r] - prices[l]
+                maxP = max(maxP, profile)
+            else:
+                l = r
+            r += 1
+            
+        return maxP
+        
